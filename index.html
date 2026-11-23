@@ -1,0 +1,1499 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>集 fang 阁 云 搜索 - 官方视频品牌_聚焦云端搜索与影像内容生态</title>
+<meta name="description" content="集 fang 阁 云 搜索官方网站，以云端搜索为核心驱动的视频品牌内容平台，汇聚原创精品影像、创作者社区与企业级内容生态，持续运营值得信赖的高品质视频门户。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231c2b3a'/%3E%3Ccircle%20cx='28'%20cy='28'%20r='13'%20fill='none'%20stroke='%23ffb547'%20stroke-width='4'/%3E%3Cpath%20d='M38%2038l12%2012'%20stroke='%23ffb547'%20stroke-width='5'%20stroke-linecap='round'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --jfg-ink:#16202b;
+    --jfg-ink-soft:#2c3a49;
+    --jfg-paper:#f4f6f9;
+    --jfg-white:#ffffff;
+    --jfg-line:#dde3ea;
+    --jfg-gold:#ffb547;
+    --jfg-gold-deep:#e2952a;
+    --jfg-blue:#2f6f9f;
+    --jfg-blue-soft:#e8f0f6;
+    --jfg-red:#c9483a;
+    --jfg-radius:14px;
+    --jfg-shadow:0 10px 30px rgba(22,32,43,.08);
+    --jfg-shadow-lg:0 22px 60px rgba(22,32,43,.16);
+    --jfg-sticky:132px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+    background:var(--jfg-paper);
+    color:var(--jfg-ink);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{max-width:100%;display:block;}
+  a{color:inherit;text-decoration:none;}
+  button{font-family:inherit;cursor:pointer;border:0;background:none;color:inherit;}
+  h1,h2,h3,h4{margin:0;line-height:1.32;font-weight:800;letter-spacing:.01em;}
+  p{margin:0;}
+  ul,ol{margin:0;padding:0;list-style:none;}
+  section{scroll-margin-top:var(--jfg-sticky);}
+
+  .jfg-wrap{width:min(1180px,calc(100% - 40px));margin:0 auto;}
+  .jfg-eyebrow{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:12px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--jfg-blue);background:var(--jfg-blue-soft);
+    padding:6px 14px;border-radius:999px;
+  }
+  .jfg-eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--jfg-gold-deep);}
+  .jfg-sec-head{margin-bottom:30px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;}
+  .jfg-sec-head h2{font-size:clamp(22px,2.6vw,32px);margin-top:12px;}
+  .jfg-sec-head p{max-width:520px;color:#5a6675;font-size:14.5px;}
+
+  /* ============ 吸顶：公告 + 页头 ============ */
+  .jfg-topbar{
+    position:sticky;top:0;z-index:60;
+    background:rgba(244,246,249,.94);
+    backdrop-filter:blur(14px);
+    border-bottom:1px solid var(--jfg-line);
+  }
+  .jfg-notice{
+    background:linear-gradient(90deg,var(--jfg-ink) 0%,#24384c 60%,#2f4a63 100%);
+    color:#eef3f8;font-size:13px;
+  }
+  .jfg-notice-inner{
+    display:flex;align-items:center;gap:14px;flex-wrap:wrap;
+    padding:9px 0;
+  }
+  .jfg-notice-tag{
+    flex:0 0 auto;background:var(--jfg-gold);color:#231708;font-weight:800;
+    font-size:11.5px;letter-spacing:.12em;padding:3px 10px;border-radius:5px;
+  }
+  .jfg-notice-list{display:flex;gap:8px 26px;flex-wrap:wrap;flex:1 1 auto;min-width:0;}
+  .jfg-notice-list span{display:inline-flex;gap:8px;align-items:baseline;}
+  .jfg-notice-list i{font-style:normal;color:var(--jfg-gold);font-weight:700;}
+  .jfg-notice-link{color:#ffd591;font-weight:700;white-space:nowrap;}
+  .jfg-notice-link:hover{text-decoration:underline;}
+
+  .jfg-header{background:#fff;}
+  .jfg-header-inner{
+    display:flex;align-items:center;gap:26px;
+    padding:14px 0;min-height:64px;
+  }
+  .jfg-brand{display:flex;align-items:center;gap:12px;flex:0 0 auto;}
+  .jfg-brand-mark{
+    width:42px;height:42px;border-radius:12px;flex:0 0 auto;
+    background:var(--jfg-ink);display:grid;place-items:center;
+    box-shadow:inset 0 0 0 2px rgba(255,181,71,.5);
+  }
+  .jfg-brand-mark svg{width:24px;height:24px;}
+  .jfg-brand-text b{display:block;font-size:16.5px;letter-spacing:.04em;line-height:1.2;white-space:nowrap;}
+  .jfg-brand-text small{display:block;font-size:11px;color:#7b8794;letter-spacing:.16em;white-space:nowrap;}
+
+  .jfg-nav{display:flex;gap:4px;flex:1 1 auto;flex-wrap:wrap;}
+  .jfg-nav a{
+    font-size:14.5px;font-weight:600;color:var(--jfg-ink-soft);
+    padding:9px 12px;border-radius:9px;transition:.18s;white-space:nowrap;
+  }
+  .jfg-nav a:hover{background:var(--jfg-blue-soft);color:var(--jfg-blue);}
+
+  .jfg-search{
+    display:flex;align-items:center;gap:8px;flex:0 1 260px;
+    background:var(--jfg-paper);border:1px solid var(--jfg-line);
+    border-radius:999px;padding:6px 8px 6px 16px;
+  }
+  .jfg-search input{
+    border:0;background:transparent;outline:none;font-size:13.5px;
+    width:100%;min-width:0;color:var(--jfg-ink);
+  }
+  .jfg-search button{
+    flex:0 0 auto;width:30px;height:30px;border-radius:50%;
+    background:var(--jfg-ink);color:#fff;display:grid;place-items:center;
+  }
+  .jfg-search button:hover{background:var(--jfg-blue);}
+  .jfg-search-msg{
+    width:100%;font-size:12.5px;color:var(--jfg-blue);font-weight:600;
+    padding:0 4px;min-height:0;transition:.2s;
+  }
+  .jfg-search-wrap{position:relative;}
+  .jfg-search-result{
+    position:absolute;left:0;right:0;top:calc(100% + 8px);
+    background:#fff;border:1px solid var(--jfg-line);border-radius:12px;
+    box-shadow:var(--jfg-shadow);padding:8px;display:none;z-index:70;
+    max-height:260px;overflow:auto;
+  }
+  .jfg-search-result.is-open{display:block;}
+  .jfg-search-result button{
+    display:block;width:100%;text-align:left;font-size:13px;
+    padding:8px 10px;border-radius:8px;color:var(--jfg-ink-soft);
+  }
+  .jfg-search-result button:hover{background:var(--jfg-blue-soft);color:var(--jfg-blue);}
+  .jfg-search-result em{font-style:normal;color:var(--jfg-red);font-weight:700;}
+
+  .jfg-nav-toggle{
+    display:none;margin-left:auto;border:1px solid var(--jfg-line);
+    border-radius:10px;padding:8px 12px;font-size:13px;font-weight:700;
+    background:#fff;color:var(--jfg-ink);
+  }
+  .jfg-mobile-nav{display:none;padding:0 0 14px;}
+  .jfg-mobile-nav.is-open{display:block;}
+  .jfg-mobile-nav a{
+    display:block;padding:11px 12px;font-size:14.5px;font-weight:600;
+    border-radius:9px;color:var(--jfg-ink-soft);
+  }
+  .jfg-mobile-nav a:hover{background:var(--jfg-blue-soft);}
+
+  /* ============ 首屏 ============ */
+  .jfg-hero{padding:44px 0 10px;}
+  .jfg-hero-grid{
+    display:grid;grid-template-columns:6fr 4fr;gap:44px;align-items:center;
+  }
+  .jfg-hero-copy h1{
+    font-size:clamp(30px,4.4vw,52px);letter-spacing:-.01em;margin:18px 0 0;
+  }
+  .jfg-hero-copy h1 span{color:var(--jfg-blue);}
+  .jfg-hero-lead{margin-top:16px;font-size:16.5px;color:#4b5967;max-width:560px;}
+  .jfg-hero-desc{
+    margin-top:18px;font-size:14.5px;color:#5a6675;
+    border-left:3px solid var(--jfg-gold);padding-left:16px;
+  }
+  .jfg-hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px;}
+  .jfg-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 22px;border-radius:999px;font-size:14.5px;font-weight:700;
+    transition:.2s;border:1px solid transparent;
+  }
+  .jfg-btn-primary{background:var(--jfg-ink);color:#fff;box-shadow:var(--jfg-shadow);}
+  .jfg-btn-primary:hover{background:var(--jfg-blue);transform:translateY(-2px);}
+  .jfg-btn-ghost{background:#fff;border-color:var(--jfg-line);color:var(--jfg-ink);}
+  .jfg-btn-ghost:hover{border-color:var(--jfg-gold-deep);color:var(--jfg-gold-deep);transform:translateY(-2px);}
+  .jfg-btn-gold{background:var(--jfg-gold);color:#2b1c02;}
+  .jfg-btn-gold:hover{background:var(--jfg-gold-deep);transform:translateY(-2px);}
+
+  .jfg-hero-stats{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:30px;
+  }
+  .jfg-stat{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:var(--jfg-radius);
+    padding:16px 16px 14px;
+  }
+  .jfg-stat b{display:block;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.02em;color:var(--jfg-ink);}
+  .jfg-stat b i{font-style:normal;font-size:13px;color:var(--jfg-blue);margin-left:2px;}
+  .jfg-stat small{display:block;font-size:12.5px;color:#74808e;margin-top:4px;}
+
+  .jfg-hero-visual{position:relative;}
+  .jfg-hero-frame{
+    border-radius:22px;overflow:hidden;box-shadow:var(--jfg-shadow-lg);
+    background:#0f1a24;
+  }
+  .jfg-hero-frame img{width:100%;aspect-ratio:16/13;object-fit:cover;}
+  .jfg-hero-badge{
+    position:absolute;left:-18px;bottom:26px;background:#fff;
+    border-radius:14px;padding:12px 18px;box-shadow:var(--jfg-shadow-lg);
+    display:flex;align-items:center;gap:12px;max-width:82%;
+  }
+  .jfg-hero-badge .jfg-live-dot{
+    width:10px;height:10px;border-radius:50%;background:var(--jfg-red);
+    box-shadow:0 0 0 4px rgba(201,72,58,.18);flex:0 0 auto;
+  }
+  .jfg-hero-badge b{display:block;font-size:13.5px;}
+  .jfg-hero-badge small{display:block;font-size:11.5px;color:#7b8794;}
+
+  /* ============ 通用 section 间距 ============ */
+  .jfg-section{padding:56px 0;}
+  .jfg-section-alt{background:#fff;border-top:1px solid var(--jfg-line);border-bottom:1px solid var(--jfg-line);}
+
+  /* ============ 焦点 + 视频列表 ============ */
+  .jfg-focus-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:32px;align-items:start;}
+  .jfg-focus-card{
+    background:#fff;border-radius:20px;overflow:hidden;border:1px solid var(--jfg-line);
+    box-shadow:var(--jfg-shadow);
+  }
+  .jfg-focus-card img{width:100%;aspect-ratio:16/10;object-fit:cover;}
+  .jfg-focus-body{padding:22px 24px 24px;}
+  .jfg-tagrow{display:flex;flex-wrap:wrap;gap:8px;}
+  .jfg-tag{
+    font-size:11.5px;font-weight:700;letter-spacing:.05em;
+    padding:4px 10px;border-radius:6px;background:var(--jfg-blue-soft);color:var(--jfg-blue);
+  }
+  .jfg-tag.is-gold{background:#fdf1dc;color:#a06a10;}
+  .jfg-tag.is-red{background:#fbe9e7;color:var(--jfg-red);}
+  .jfg-focus-body h3{font-size:21px;margin:12px 0 10px;}
+  .jfg-focus-body p{font-size:14px;color:#5a6675;}
+  .jfg-meta{
+    display:flex;flex-wrap:wrap;gap:6px 16px;font-size:12.5px;
+    color:#7b8794;margin-top:14px;
+  }
+  .jfg-meta b{color:var(--jfg-ink-soft);font-weight:700;}
+
+  .jfg-vlist{display:flex;flex-direction:column;gap:14px;}
+  .jfg-vitem{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:var(--jfg-radius);
+    padding:16px 18px;transition:.2s;
+  }
+  .jfg-vitem:hover{transform:translateY(-2px);box-shadow:var(--jfg-shadow);border-color:#cfd9e3;}
+  .jfg-vitem-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .jfg-vitem-index{
+    flex:0 0 auto;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+    background:var(--jfg-ink);color:var(--jfg-gold);font-size:12px;font-weight:800;
+  }
+  .jfg-vitem h3{font-size:15.5px;flex:1 1 auto;min-width:0;}
+  .jfg-vitem p{font-size:13px;color:#68737f;margin-top:6px;}
+  .jfg-vitem-foot{
+    display:flex;align-items:center;gap:8px 14px;flex-wrap:wrap;
+    margin-top:10px;font-size:12px;color:#7b8794;
+  }
+  .jfg-vitem-foot .jfg-author-link{font-weight:700;color:var(--jfg-blue);}
+  .jfg-actions{display:flex;gap:8px;margin-left:auto;flex-wrap:wrap;}
+  .jfg-mini-btn{
+    display:inline-flex;align-items:center;gap:5px;
+    font-size:12px;font-weight:700;padding:5px 11px;border-radius:999px;
+    background:var(--jfg-paper);border:1px solid var(--jfg-line);color:#4b5967;
+    transition:.18s;
+  }
+  .jfg-mini-btn:hover{border-color:var(--jfg-gold-deep);color:var(--jfg-gold-deep);}
+  .jfg-mini-btn.is-liked{background:#fbe9e7;border-color:#f0c4be;color:var(--jfg-red);}
+  .jfg-mini-btn.is-saved{background:#fdf1dc;border-color:#f0d9a9;color:#a06a10;}
+
+  /* ============ 关键词解析长文 ============ */
+  .jfg-essay{max-width:860px;margin:0 auto;}
+  .jfg-essay h3{font-size:18px;margin:30px 0 10px;color:var(--jfg-ink);padding-left:14px;position:relative;}
+  .jfg-essay h3::before{content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:3px;background:var(--jfg-gold);}
+  .jfg-essay p{font-size:14.8px;color:#4b5967;margin-top:10px;text-align:justify;}
+  .jfg-essay .jfg-quote{
+    margin:26px 0;background:#fff;border:1px solid var(--jfg-line);
+    border-left:4px solid var(--jfg-blue);border-radius:0 var(--jfg-radius) var(--jfg-radius) 0;
+    padding:16px 22px;font-size:14px;color:var(--jfg-ink-soft);
+  }
+
+  /* ============ 专题 ============ */
+  .jfg-topics{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;}
+  .jfg-topic{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:18px;overflow:hidden;
+    display:flex;flex-direction:column;transition:.2s;
+  }
+  .jfg-topic:hover{box-shadow:var(--jfg-shadow);transform:translateY(-3px);}
+  .jfg-topic img{width:100%;aspect-ratio:16/9;object-fit:cover;}
+  .jfg-topic-body{padding:18px 20px 20px;display:flex;flex-direction:column;gap:10px;flex:1 1 auto;}
+  .jfg-topic-body h3{font-size:16.5px;}
+  .jfg-topic-body p{font-size:13px;color:#68737f;}
+  .jfg-topic-list{display:flex;flex-direction:column;gap:7px;margin-top:2px;}
+  .jfg-topic-list li{
+    font-size:12.8px;color:#4b5967;padding-left:16px;position:relative;
+  }
+  .jfg-topic-list li::before{
+    content:"";position:absolute;left:0;top:8px;width:6px;height:6px;
+    border-radius:2px;background:var(--jfg-gold);
+  }
+  .jfg-status{
+    display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;
+    color:#2e7d52;background:#e6f4ec;padding:3px 10px;border-radius:999px;align-self:flex-start;
+  }
+  .jfg-status.is-updating{color:#a8641a;background:#fdf1dc;}
+
+  /* ============ 作者区 ============ */
+  .jfg-authors{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px;}
+  .jfg-author{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:16px;padding:20px;
+    transition:.2s;position:relative;
+  }
+  .jfg-author:hover{box-shadow:var(--jfg-shadow);transform:translateY(-3px);}
+  .jfg-author-head{display:flex;align-items:center;gap:13px;}
+  .jfg-avatar{
+    width:50px;height:50px;border-radius:50%;flex:0 0 auto;display:grid;place-items:center;
+    font-weight:800;font-size:17px;color:#fff;letter-spacing:.02em;
+  }
+  .jfg-avatar.a1{background:linear-gradient(135deg,#2f6f9f,#16202b);}
+  .jfg-avatar.a2{background:linear-gradient(135deg,#e2952a,#a8641a);}
+  .jfg-avatar.a3{background:linear-gradient(135deg,#3e8f6b,#1f5741);}
+  .jfg-avatar.a4{background:linear-gradient(135deg,#8a5a9e,#4a2e59);}
+  .jfg-avatar.a5{background:linear-gradient(135deg,#c9483a,#7d2a21);}
+  .jfg-avatar.a6{background:linear-gradient(135deg,#3b7d8f,#1e4552);}
+  .jfg-author-head b{display:block;font-size:15px;}
+  .jfg-author-head small{display:block;font-size:12px;color:#7b8794;}
+  .jfg-author p{font-size:13px;color:#5a6675;margin-top:12px;}
+  .jfg-author-data{display:flex;gap:18px;margin-top:14px;font-size:12.5px;color:#7b8794;}
+  .jfg-author-data b{color:var(--jfg-ink);}
+  .jfg-author-more{
+    margin-top:14px;font-size:12.5px;font-weight:700;color:var(--jfg-blue);
+    background:none;padding:0;
+  }
+  .jfg-author-more:hover{text-decoration:underline;}
+
+  /* ============ 评论 ============ */
+  .jfg-comments{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
+  .jfg-comment{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:14px;padding:18px 20px;
+  }
+  .jfg-comment-head{display:flex;align-items:center;gap:10px;font-size:13px;}
+  .jfg-comment-head b{font-weight:700;}
+  .jfg-comment-head small{color:#9aa5b1;font-size:11.5px;margin-left:auto;}
+  .jfg-comment p{font-size:13.5px;color:#4b5967;margin-top:10px;}
+  .jfg-stars{color:var(--jfg-gold-deep);font-size:12.5px;letter-spacing:2px;}
+  .jfg-score-summary{
+    background:linear-gradient(135deg,#16202b,#25405a);color:#eaf1f7;
+    border-radius:18px;padding:26px 28px;display:grid;grid-template-columns:auto 1fr;gap:26px;
+    align-items:center;margin-bottom:22px;
+  }
+  .jfg-score-big{font-size:clamp(38px,5vw,56px);font-weight:800;line-height:1;color:var(--jfg-gold);}
+  .jfg-score-big small{display:block;font-size:12px;color:#9fb4c7;letter-spacing:.16em;margin-top:8px;font-weight:600;}
+  .jfg-score-bars{display:flex;flex-direction:column;gap:7px;font-size:12.5px;color:#c3d4e2;}
+  .jfg-score-bars .row{display:flex;align-items:center;gap:10px;}
+  .jfg-score-bars .bar{flex:1 1 auto;height:6px;border-radius:999px;background:rgba(255,255,255,.14);overflow:hidden;}
+  .jfg-score-bars .bar i{display:block;height:100%;background:var(--jfg-gold);border-radius:999px;}
+
+  /* ============ 动态 / 合作 / FAQ ============ */
+  .jfg-dyn-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start;}
+  .jfg-news{display:flex;flex-direction:column;gap:2px;}
+  .jfg-news-item{
+    display:grid;grid-template-columns:92px 1fr;gap:16px;
+    padding:15px 0;border-bottom:1px dashed var(--jfg-line);
+  }
+  .jfg-news-item time{font-size:12.5px;color:#8a95a1;font-weight:700;letter-spacing:.04em;}
+  .jfg-news-item b{font-size:14.5px;display:block;}
+  .jfg-news-item p{font-size:13px;color:#68737f;margin-top:4px;}
+
+  .jfg-partners{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
+  .jfg-partner{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:12px;
+    padding:14px 16px;display:flex;align-items:center;gap:10px;
+    font-size:13.5px;font-weight:700;color:var(--jfg-ink-soft);
+  }
+  .jfg-partner i{
+    width:26px;height:26px;border-radius:8px;display:grid;place-items:center;
+    font-style:normal;font-size:12px;font-weight:800;color:#fff;flex:0 0 auto;
+  }
+
+  .jfg-faq{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:10px;}
+  .jfg-faq details{
+    background:#fff;border:1px solid var(--jfg-line);border-radius:12px;
+    padding:0 20px;transition:.2s;
+  }
+  .jfg-faq details[open]{border-color:#e7c78d;box-shadow:var(--jfg-shadow);}
+  .jfg-faq summary{
+    list-style:none;cursor:pointer;padding:16px 0;font-size:14.5px;font-weight:700;
+    display:flex;align-items:center;gap:12px;
+  }
+  .jfg-faq summary::-webkit-details-marker{display:none;}
+  .jfg-faq summary::after{
+    content:"+";margin-left:auto;font-size:19px;font-weight:400;color:var(--jfg-gold-deep);
+    transition:.2s;
+  }
+  .jfg-faq details[open] summary::after{content:"–";}
+  .jfg-faq details p{font-size:13.5px;color:#5a6675;padding:0 0 18px;border-top:1px dashed var(--jfg-line);padding-top:14px;}
+
+  /* ============ 投稿 / 入口 ============ */
+  .jfg-submit{
+    background:linear-gradient(120deg,#16202b 0%,#2a4761 55%,#37617f 100%);
+    border-radius:22px;color:#eaf1f7;padding:44px 40px;
+    display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:center;
+    box-shadow:var(--jfg-shadow-lg);
+  }
+  .jfg-submit h2{font-size:clamp(22px,2.8vw,30px);}
+  .jfg-submit p{font-size:14.5px;color:#c0d3e2;margin-top:12px;max-width:560px;}
+  .jfg-submit-cta{display:flex;flex-direction:column;gap:12px;}
+
+  /* ============ 页脚 ============ */
+  .jfg-footer{background:#101a24;color:#a9bac9;padding:52px 0 26px;font-size:13.5px;}
+  .jfg-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:32px;}
+  .jfg-footer h4{color:#fff;font-size:14px;margin-bottom:14px;letter-spacing:.04em;}
+  .jfg-footer li{margin-bottom:9px;}
+  .jfg-footer a:hover{color:var(--jfg-gold);}
+  .jfg-footer-brand b{color:#fff;font-size:16px;display:block;margin-bottom:10px;}
+  .jfg-footer-brand p{font-size:13px;color:#8ba0b2;max-width:330px;}
+  .jfg-footer-bottom{
+    margin-top:36px;padding-top:20px;border-top:1px solid rgba(255,255,255,.1);
+    display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between;
+    font-size:12.5px;color:#7d91a3;
+  }
+  .jfg-footer-bottom span{white-space:nowrap;}
+
+  /* ============ 弹窗 / Toast / 回顶 ============ */
+  .jfg-modal-backdrop{
+    position:fixed;inset:0;background:rgba(14,22,30,.55);backdrop-filter:blur(3px);
+    z-index:120;display:none;align-items:center;justify-content:center;padding:20px;
+  }
+  .jfg-modal-backdrop.is-open{display:flex;}
+  .jfg-modal{
+    background:#fff;border-radius:18px;max-width:520px;width:100%;
+    box-shadow:var(--jfg-shadow-lg);max-height:86vh;overflow:auto;
+  }
+  .jfg-modal-head{
+    display:flex;align-items:center;justify-content:space-between;gap:16px;
+    padding:20px 24px;border-bottom:1px solid var(--jfg-line);
+  }
+  .jfg-modal-head b{font-size:16px;}
+  .jfg-modal-close{
+    width:32px;height:32px;border-radius:50%;background:var(--jfg-paper);
+    display:grid;place-items:center;font-size:17px;color:#5a6675;
+  }
+  .jfg-modal-body{padding:22px 24px 26px;font-size:14px;color:#4b5967;}
+  .jfg-modal-body label{display:block;font-size:13px;font-weight:700;margin:14px 0 6px;color:var(--jfg-ink);}
+  .jfg-modal-body label:first-child{margin-top:0;}
+  .jfg-modal-body input,.jfg-modal-body textarea,.jfg-modal-body select{
+    width:100%;border:1px solid var(--jfg-line);border-radius:10px;
+    padding:10px 12px;font-family:inherit;font-size:13.5px;outline:none;background:var(--jfg-paper);
+  }
+  .jfg-modal-body input:focus,.jfg-modal-body textarea:focus,.jfg-modal-body select:focus{
+    border-color:var(--jfg-blue);background:#fff;
+  }
+
+  .jfg-toast{
+    position:fixed;left:50%;bottom:32px;transform:translate(-50%,20px);
+    background:var(--jfg-ink);color:#fff;font-size:13.5px;font-weight:600;
+    padding:11px 22px;border-radius:999px;box-shadow:var(--jfg-shadow-lg);
+    opacity:0;pointer-events:none;transition:.28s;z-index:200;max-width:90vw;text-align:center;
+  }
+  .jfg-toast.is-show{opacity:1;transform:translate(-50%,0);}
+
+  .jfg-to-top{
+    position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:50%;
+    background:var(--jfg-ink);color:var(--jfg-gold);display:grid;place-items:center;
+    box-shadow:var(--jfg-shadow-lg);z-index:90;opacity:0;visibility:hidden;
+    transition:.25s;font-size:18px;
+  }
+  .jfg-to-top.is-show{opacity:1;visibility:visible;}
+  .jfg-to-top:hover{background:var(--jfg-blue);}
+
+  /* ============ 响应式 ============ */
+  @media (max-width:1024px){
+    .jfg-hero-grid{grid-template-columns:1fr;gap:32px;}
+    .jfg-hero-visual{order:-1;}
+    .jfg-hero-badge{left:12px;bottom:12px;}
+    .jfg-focus-grid{grid-template-columns:1fr;}
+    .jfg-dyn-grid{grid-template-columns:1fr;}
+    .jfg-submit{grid-template-columns:1fr;padding:32px 26px;}
+    .jfg-footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:900px){
+    :root{--jfg-sticky:114px;}
+    .jfg-nav,.jfg-search-wrap{display:none;}
+    .jfg-nav-toggle{display:block;}
+    .jfg-header-inner{gap:14px;flex-wrap:wrap;}
+    .jfg-search-wrap.is-mobile-shown{display:block;flex:1 1 100%;padding-bottom:10px;}
+  }
+  @media (max-width:640px){
+    :root{--jfg-sticky:150px;}
+    .jfg-wrap{width:calc(100% - 28px);}
+    .jfg-notice-inner{padding:8px 0;}
+    .jfg-notice-list{flex-direction:column;gap:3px;font-size:12px;}
+    .jfg-hero-stats{grid-template-columns:1fr;gap:10px;}
+    .jfg-hero-copy h1{font-size:30px;}
+    .jfg-score-summary{grid-template-columns:1fr;gap:16px;}
+    .jfg-partners{grid-template-columns:1fr;}
+    .jfg-footer-grid{grid-template-columns:1fr;}
+    .jfg-news-item{grid-template-columns:1fr;gap:4px;}
+    .jfg-actions{margin-left:0;width:100%;}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<!-- ================= S1 公告条 + 页头 ================= -->
+<div class="jfg-topbar" id="jfgTop">
+  <div class="jfg-notice">
+    <div class="jfg-wrap jfg-notice-inner">
+      <span class="jfg-notice-tag">官方发布</span>
+      <div class="jfg-notice-list">
+        <span><i>11-21</i>「云搜索·影像年鉴 2026」专题上线，收录 48 部原创短片</span>
+        <span><i>11-19</i>创作者扶持计划第三期开放报名，名额 120 位</span>
+        <span><i>11-18</i>企业级高清视频检索工具 v3.2 发布，支持语义镜头定位</span>
+      </div>
+      <a class="jfg-notice-link" href="#jfgDynamics">查看更新日志 →</a>
+    </div>
+  </div>
+
+  <header class="jfg-header">
+    <div class="jfg-wrap jfg-header-inner">
+      <a class="jfg-brand" href="#jfgTop" aria-label="集 fang 阁 云 搜索 官方首页">
+        <span class="jfg-brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#ffb547" stroke-width="2" stroke-linecap="round">
+            <circle cx="10.5" cy="10.5" r="6.5"></circle>
+            <path d="M15.5 15.5L21 21"></path>
+          </svg>
+        </span>
+        <span class="jfg-brand-text">
+          <b>集 fang 阁 云 搜索</b>
+          <small>JFG CLOUD VIDEO</small>
+        </span>
+      </a>
+
+      <nav class="jfg-nav" aria-label="主导航">
+        <a href="#jfgFeatured">精选内容</a>
+        <a href="#jfgEssay">关键词解析</a>
+        <a href="#jfgTopics">专题企划</a>
+        <a href="#jfgAuthors">创作者</a>
+        <a href="#jfgReviews">用户口碑</a>
+        <a href="#jfgDynamics">企业动态</a>
+        <a href="#jfgFaq">帮助中心</a>
+      </nav>
+
+      <div class="jfg-search-wrap" id="jfgSearchWrap">
+        <div class="jfg-search">
+          <input id="jfgSearchInput" type="search" placeholder="搜索影片、创作者、专题…" aria-label="站内搜索">
+          <button id="jfgSearchBtn" type="button" aria-label="提交搜索">→</button>
+        </div>
+        <div class="jfg-search-result" id="jfgSearchResult" role="listbox" aria-label="搜索建议"></div>
+      </div>
+
+      <button class="jfg-nav-toggle" id="jfgNavToggle" type="button" aria-expanded="false" aria-controls="jfgMobileNav">菜单</button>
+      <nav class="jfg-mobile-nav" id="jfgMobileNav" aria-label="移动端导航">
+        <a href="#jfgFeatured">精选内容</a>
+        <a href="#jfgEssay">关键词解析</a>
+        <a href="#jfgTopics">专题企划</a>
+        <a href="#jfgAuthors">创作者</a>
+        <a href="#jfgReviews">用户口碑</a>
+        <a href="#jfgDynamics">企业动态</a>
+        <a href="#jfgFaq">帮助中心</a>
+      </nav>
+    </div>
+  </header>
+</div>
+
+<!-- ================= S2 品牌首屏 ================= -->
+<section class="jfg-hero jfg-wrap" id="jfgHome">
+  <div class="jfg-hero-grid">
+    <div class="jfg-hero-copy">
+      <span class="jfg-eyebrow">集 fang 阁 云 搜索 · 官方网站</span>
+      <h1>集 fang 阁 云 搜索</h1>
+      <p class="jfg-hero-lead">一个以云端搜索为核心的视频内容品牌，用检索的方式重新组织影像，让每一部原创短片都能被准确找到。</p>
+      <p class="jfg-hero-desc">集 fang 阁 云 搜索官方网站于 2019 年正式运营，深耕“搜索 × 影像”垂直领域，为企业、创作者与普通观众搭建高品质内容生态。平台自研云端镜头索引系统，对每一部原创视频生成可检索的场景、人物、台词与情绪标签，累计收录正版高清内容超过 6.8 万小时。我们坚持官方发布、正版授权与创作者实名入驻，用专业的内容审核与持续运营，把“值得信赖的用户首选视频门户”做成一件长期的事。</p>
+      <div class="jfg-hero-cta">
+        <a class="jfg-btn jfg-btn-primary" href="#jfgFeatured">进入精选片库</a>
+        <a class="jfg-btn jfg-btn-gold" href="#jfgSubmit">创作者报名</a>
+        <a class="jfg-btn jfg-btn-ghost" href="#jfgEssay">了解品牌理念</a>
+      </div>
+      <div class="jfg-hero-stats">
+        <div class="jfg-stat"><b>6.8<i>万小时</i></b><small>正版高清内容库</small></div>
+        <div class="jfg-stat"><b>2,340<i>位</i></b><small>实名入驻创作者</small></div>
+        <div class="jfg-stat"><b>98.2<i>%</i></b><small>搜索命中满意度</small></div>
+      </div>
+    </div>
+
+    <div class="jfg-hero-visual">
+      <div class="jfg-hero-frame">
+        <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20650'%3E%3Cdefs%3E%3ClinearGradient%20id='sky'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%230d1b28'/%3E%3Cstop%20offset='1'%20stop-color='%231d3a52'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='glow'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23ffb547'/%3E%3Cstop%20offset='1'%20stop-color='%23e2952a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='800'%20height='650'%20fill='url(%23sky)'/%3E%3Cg%20opacity='.5'%20stroke='%233f6d8f'%3E%3Cpath%20d='M0%20480L800%20340'/%3E%3Cpath%20d='M0%20560L800%20420'/%3E%3Cpath%20d='M160%20650L640%200'/%3E%3Cpath%20d='M320%20650L800%200'/%3E%3C/g%3E%3Ccircle%20cx='400'%20cy='300'%20r='150'%20fill='none'%20stroke='url(%23glow)'%20stroke-width='3'%20opacity='.85'/%3E%3Ccircle%20cx='400'%20cy='300'%20r='96'%20fill='none'%20stroke='%23ffb547'%20stroke-width='2'%20opacity='.45'/%3E%3Ccircle%20cx='520'%20cy='180'%20r='10'%20fill='%23ffb547'/%3E%3Ccircle%20cx='270'%20cy='410'%20r='6'%20fill='%236db7e0'/%3E%3Cg%20fill='%23eaf1f7'%20opacity='.9'%3E%3Crect%20x='120'%20y='120'%20width='150'%20height='8'%20rx='4'/%3E%3Crect%20x='120'%20y='142'%20width='96'%20height='8'%20rx='4'%20opacity='.5'/%3E%3Crect%20x='540'%20y='470'%20width='180'%20height='8'%20rx='4'/%3E%3Crect%20x='540'%20y='492'%20width='120'%20height='8'%20rx='4'%20opacity='.5'/%3E%3C/g%3E%3Cg%20transform='translate(400%20300)'%3E%3Ccircle%20r='46'%20fill='%23ffb547'%20opacity='.16'/%3E%3Cpath%20d='M-14-20L26%200L-14%2020Z'%20fill='%23ffb547'/%3E%3C/g%3E%3C/svg%3E" width="800" height="650" alt="集 fang 阁 云 搜索首屏主视觉：深蓝云端空间中的镜头检索光圈与播放标识">
+      </div>
+      <div class="jfg-hero-badge">
+        <span class="jfg-live-dot" aria-hidden="true"></span>
+        <span>
+          <b>正在直播 · 云端检索公开课</b>
+          <small>第 27 期 · 语义镜头标签实战</small>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S3 精选内容 + 视频列表 ================= -->
+<section class="jfg-section jfg-wrap" id="jfgFeatured">
+  <div class="jfg-sec-head">
+    <div>
+      <span class="jfg-eyebrow">Focus / 本期焦点</span>
+      <h2>被搜索点亮的 <span style="color:#2f6f9f">集 fang 阁 云 搜索</span> 精品内容</h2>
+    </div>
+    <p>编辑部每周从云端片库中打捞高完播率与高口碑的原创作品，附上可复用的检索标签，方便你顺着一条线索看下去。</p>
+  </div>
+
+  <div class="jfg-focus-grid">
+    <article class="jfg-focus-card">
+      <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20800%20480'%3E%3Cdefs%3E%3ClinearGradient%20id='g1'%20x1='0'%20y1='0'%20x2='1'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23f7e8c9'/%3E%3Cstop%20offset='1'%20stop-color='%23e0b36b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='800'%20height='480'%20fill='url(%23g1)'/%3E%3Cg%20stroke='%23a8762f'%20stroke-width='3'%20fill='none'%3E%3Crect%20x='70'%20y='80'%20width='250'%20height='160'%20rx='10'/%3E%3Crect%20x='480'%20y='240'%20width='250'%20height='160'%20rx='10'/%3E%3Cpath%20d='M320%20160L480%20320'%20stroke-dasharray='8%208'/%3E%3C/g%3E%3Cg%20fill='%232b1c02'%3E%3Crect%20x='96'%20y='112'%20width='140'%20height='10'%20rx='5'/%3E%3Crect%20x='96'%20y='136'%20width='98'%20height='10'%20rx='5'%20opacity='.45'/%3E%3Crect%20x='96'%20y='160'%20width='120'%20height='10'%20rx='5'%20opacity='.3'/%3E%3Crect%20x='506'%20y='272'%20width='150'%20height='10'%20rx='5'/%3E%3Crect%20x='506'%20y='296'%20width='110'%20height='10'%20rx='5'%20opacity='.45'/%3E%3C/g%3E%3Ccircle%20cx='400'%20cy='240'%20r='58'%20fill='%23ffffff'%20opacity='.75'/%3E%3Cpath%20d='M384%20210L424%20240L384%20270Z'%20fill='%23a8762f'/%3E%3C/svg%3E" width="800" height="480" alt="焦点视频封面：两段影像通过检索线相连，中央播放标识象征云端关联推荐">
+      <div class="jfg-focus-body">
+        <div class="jfg-tagrow">
+          <span class="jfg-tag is-gold">本期焦点</span>
+          <span class="jfg-tag">深度测评</span>
+          <span class="jfg-tag">搜索方法</span>
+        </div>
+        <h3>我们把 1200 小时素材塞进索引：一次语义检索实测</h3>
+        <p>四位剪辑师与两位数据工程师，用同一句话去搜索同一批素材，看看云端索引能不能真的理解“黄昏时分一个人走过天桥”这种模糊描述。测试覆盖 6 类拍摄场景，最终命中准确率 91.4%，也暴露了三个尚未解决的时间轴错位问题。</p>
+        <div class="jfg-meta">
+          <span>作者 <b>林知远</b></span>
+          <span>时长 24:18</span>
+          <span>播放 <b class="jfg-play-count">386,402</b></span>
+          <span>点赞 <b>12,780</b></span>
+        </div>
+        <div class="jfg-actions" style="margin-top:16px">
+          <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="12780">👍 点赞</button>
+          <button class="jfg-mini-btn jfg-save-btn" type="button">☆ 收藏</button>
+          <button class="jfg-mini-btn jfg-share-btn" type="button" data-title="我们把 1200 小时素材塞进索引：一次语义检索实测">↗ 分享</button>
+        </div>
+      </div>
+    </article>
+
+    <div class="jfg-vlist">
+      <article class="jfg-vitem">
+        <div class="jfg-vitem-top">
+          <span class="jfg-vitem-index">01</span>
+          <h3>从零搭建个人影像检索库：剪辑师的三步法</h3>
+        </div>
+        <p>用标签命名规范、目录分层与关键词表，把散落在硬盘里的 3 年素材变成可以随时调用的素材库，附完整命名模板。</p>
+        <div class="jfg-vitem-foot">
+          <span class="jfg-author-link">周予安</span>
+          <span>教程干货</span>
+          <span>播放 214,900</span>
+          <span>点赞 8,140</span>
+          <div class="jfg-actions">
+            <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="8140">👍 8140</button>
+            <button class="jfg-mini-btn jfg-save-btn" type="button">☆</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="jfg-vitem">
+        <div class="jfg-vitem-top">
+          <span class="jfg-vitem-index">02</span>
+          <h3>云搜索背后的标签工程：一位标注师的一天</h3>
+        </div>
+        <p>跟随标注师沈砚走完 8 小时工作流，理解“情绪标签”如何被拆成 12 个可检索维度，以及人工与算法如何互相纠错。</p>
+        <div class="jfg-vitem-foot">
+          <span class="jfg-author-link">沈砚</span>
+          <span>人物访谈</span>
+          <span>播放 168,320</span>
+          <span>点赞 6,905</span>
+          <div class="jfg-actions">
+            <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="6905">👍 6905</button>
+            <button class="jfg-mini-btn jfg-save-btn" type="button">☆</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="jfg-vitem">
+        <div class="jfg-vitem-top">
+          <span class="jfg-vitem-index">03</span>
+          <h3>三线城市小工作室，如何靠云端片库接到品牌单</h3>
+        </div>
+        <p>没有大设备、没有明星团队，靠检索效率与内容复用率取胜的真实商业观察，含报价结构与交付周期对照表。</p>
+        <div class="jfg-vitem-foot">
+          <span class="jfg-author-link">贺兰亭</span>
+          <span>商业观察</span>
+          <span>播放 143,760</span>
+          <span>点赞 5,430</span>
+          <div class="jfg-actions">
+            <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="5430">👍 5430</button>
+            <button class="jfg-mini-btn jfg-save-btn" type="button">☆</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="jfg-vitem">
+        <div class="jfg-vitem-top">
+          <span class="jfg-vitem-index">04</span>
+          <h3>把城市声音做成关键词：一次夜间采集实验</h3>
+        </div>
+        <p>凌晨两点的地铁末班车、便利店门铃、雨棚滴水，采集 76 段环境声并转化为可检索标签，听见城市的检索维度。</p>
+        <div class="jfg-vitem-foot">
+          <span class="jfg-author-link">苏未迟</span>
+          <span>城市探索</span>
+          <span>播放 132,580</span>
+          <span>点赞 4,980</span>
+          <div class="jfg-actions">
+            <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="4980">👍 4980</button>
+            <button class="jfg-mini-btn jfg-save-btn" type="button">☆</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="jfg-vitem">
+        <div class="jfg-vitem-top">
+          <span class="jfg-vitem-index">05</span>
+          <h3>新人第一条片子：7 个不会出错的检索关键词</h3>
+        </div>
+        <p>给刚入行的创作者一份低门槛清单，从“手持过渡”到“自然光近景”，用关键词代替昂贵的器材与经验。</p>
+        <div class="jfg-vitem-foot">
+          <span class="jfg-author-link">周予安</span>
+          <span>实用技巧</span>
+          <span>播放 121,060</span>
+          <span>点赞 4,612</span>
+          <div class="jfg-actions">
+            <button class="jfg-mini-btn jfg-like-btn" type="button" data-count="4612">👍 4612</button>
+            <button class="jfg-mini-btn jfg-save-btn" type="button">☆</button>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S4 关键词解析 800+ 字 ================= -->
+<section class="jfg-section jfg-section-alt" id="jfgEssay">
+  <div class="jfg-wrap">
+    <div class="jfg-sec-head">
+      <div>
+        <span class="jfg-eyebrow">Brand Notes / 品牌解析</span>
+        <h2>理解 <span style="color:#2f6f9f">集 fang 阁 云 搜索</span>：一次关于影像与检索的长期实践</h2>
+      </div>
+      <p>我们把品牌名拆成四个部分来读，也把这件事拆成三件事来做：内容、索引、社区。</p>
+    </div>
+
+    <div class="jfg-essay">
+      <h3>一、名称即方法：集、fang、阁、云、搜索</h3>
+      <p>很多人第一次念出“集 fang 阁 云 搜索”会停顿一下，这个停顿恰好是我们想留下的印象。在这套命名里，“集”代表聚合与收集，是平台最基础的动作——把散落在不同设备、不同时间、不同创作者手里的影像素材聚拢到同一个内容生态里；“fang”是开放的音节，我们刻意保留它的多义性，它可以是“房”的归属感，也可以是“方”的方向感，提醒我们内容不该被固定在一套封闭的框架中；“阁”指向藏书、收藏与陈列，是一家企业对自己片库的尊重，也是一种内容分类的耐心；“云”说明这一切发生在云端，素材、索引、协作与分发都不再依赖某一块硬盘；而“搜索”是整个品牌最核心的动作，也是我们区别于普通视频门户的地方。五次组词，五次递进，从收集到检索，构成了一条完整的观看路径。作为官方网站，我们把这条路径写进了产品逻辑，也写进了每一部原创视频的元数据规则里。</p>
+
+      <h3>二、为什么要做搜索驱动的视频平台</h3>
+      <p>过去十年，视频平台的增长几乎都建立在推荐之上。推荐擅长制造惊喜，却不太擅长解决“我明确想找某个东西”的问题。剪辑师要找一段“雨天车内视角的中景”，老师要找“能讲清楚浮力的三分钟实验”，品牌方要找“不出现人脸的城市夜景空镜”——这些需求在信息流里很难被满足，因为它们需要的是检索而非推送。集 fang 阁 云 搜索从第一天起就把索引能力当成基础设施来建：每一部上传的内容都会经过分镜切分、场景标注、台词转写与情绪归类，最终形成一套可被自然语言命中的标签体系。平台同时保留人工复核，所有官方发布的精品内容都由编辑二次检查，确保检索结果与画面实际内容一致。这套机制让平台在垂直领域里获得了口碑，企业客户愿意把内部培训片、品牌纪录片与产品演示托管到这里，因为“找得到”意味着成本可控、流程可追溯。</p>
+
+      <div class="jfg-quote">
+        “检索不是把内容变成数据，而是让创作者的心血不被埋没。一段被正确标注的空镜，可能在三年后还会被另一位导演调用。” —— 集 fang 阁 云 搜索 内容委员会
+      </div>
+
+      <h3>三、内容生态的四个支柱：原创、正版、高清、社区</h3>
+      <p><strong>原创</strong>是平台的底线。我们只接收创作者本人提交或明确授权的作品，入驻需完成实名与作品权属声明，任何搬运、二剪、拼接内容都会在审核阶段被拦截。<strong>正版</strong>是平台的承诺，企业与创作者签署的内容授权协议会随作品一同留档，观众在详情页能看到授权状态与可商用范围。<strong>高清</strong>是平台的品质标准，官方发布内容统一要求 4K 起，码率与水印规范写进创作者手册，避免出现“标题很大、打开很糊”的落差。<strong>社区</strong>则是平台的温度来源。我们设置了创作者互评、作品诊断、月度挑战与线下放映，让检索不再只是一次冷冰冰的查询——你搜到一部好片，可以在评论区找到拍它的人，也可以找到同样喜欢它的人。这四根支柱支撑起平台持续运营的六年，也是我们仍愿意称自己为“内容生态”而不是“内容仓库”的原因。</p>
+
+      <h3>四、从工具到陪伴：企业与用户的双向关系</h3>
+      <p>集 fang 阁 云 搜索的用户结构很有意思：一端是把平台当生产力工具的企业与职业创作者，另一端是下班后想找点真实影像的普通观众。前者关心批量下载、版本对比、素材复用率与授权合规，后者关心画面是否舒服、故事是否真诚、评论区是否友善。我们花了很长时间才学会同时服务这两端——对企业，我们提供企业级检索后台、团队协作空间与数据看板；对观众，我们保持简洁的播放页、克制的广告位与清晰的专题策展。中间那层是创作者，他们既是内容供给方，也是社区活力来源。平台每年投入固定比例预算用于新人扶持、内容比赛与创作攻略更新，把“影响力”理解为一种可被验证的责任：你在这里被看见，也应该在这里获得成长。这份长期主义，是官方网站最想在首屏讲清楚的事。</p>
+      <p>六年里，平台经历过三次大的产品迭代与一次索引系统的推倒重来。我们删掉过看似漂亮但命中率低的标签维度，也保留过一些“看起来不划算”的人工复核岗，因为它们决定了用户是否还能信任搜索结果。今天，当你在搜索框里输入“冬天 清晨 无人街道”，看到的不只是几百条视频，而是一群人对同一座城市不同时刻的记录。集 fang 阁 云 搜索想做的，正是把这种分散的记录连接成可以被反复访问的公共记忆，让每一次搜索都成为一次与创作者的真实相遇。这也是我们坚持“用户至上、匠心运营”的全部理由。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S4b 专题企划 ================= -->
+<section class="jfg-section jfg-wrap" id="jfgTopics">
+  <div class="jfg-sec-head">
+    <div>
+      <span class="jfg-eyebrow">Special / 专题企划</span>
+      <h2><span style="color:#2f6f9f">集 fang 阁 云 搜索</span> 三大长期专题</h2>
+    </div>
+    <p>专题是平台的组织方式：把一个主题下的影像、人物与方法聚在一起，持续更新，随时可以检索进入。</p>
+  </div>
+
+  <div class="jfg-topics">
+    <article class="jfg-topic">
+      <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20338'%3E%3Crect%20width='600'%20height='338'%20fill='%230f2333'/%3E%3Cg%20fill='none'%20stroke='%236db7e0'%20stroke-width='2'%20opacity='.65'%3E%3Cpath%20d='M60%20280C160%20180%20240%20260%20340%20140S520%2060%20560%2040'/%3E%3Cpath%20d='M60%20310C180%20230%20260%20290%20360%20180S520%20110%20560%2090'/%3E%3C/g%3E%3Cg%20fill='%23ffb547'%3E%3Ccircle%20cx='160'%20cy='196'%20r='7'/%3E%3Ccircle%20cx='340'%20cy='140'%20r='7'/%3E%3Ccircle%20cx='470'%20cy='92'%20r='7'/%3E%3C/g%3E%3Cg%20fill='%23eaf1f7'%20opacity='.85'%3E%3Crect%20x='60'%20y='52'%20width='170'%20height='10'%20rx='5'/%3E%3Crect%20x='60'%20y='76'%20width='110'%20height='10'%20rx='5'%20opacity='.5'/%3E%3C/g%3E%3C/svg%3E" width="600" height="338" alt="专题封面：云端检索路径图，三条曲线连接多个影像节点">
+      <div class="jfg-topic-body">
+        <span class="jfg-status is-updating">持续更新中</span>
+        <h3>云端片库考古计划</h3>
+        <p>每季度回访一批早期上传的原创作品，补全标签、修复画质、重新访谈作者，让老片获得新的可检索性。</p>
+        <ul class="jfg-topic-list">
+          <li>2019 年第一批上传者的六年回访</li>
+          <li>低清素材的修复与画质评估标准</li>
+          <li>被遗漏的 42 个城市空镜标签补录</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="jfg-topic">
+      <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20338'%3E%3Crect%20width='600'%20height='338'%20fill='%23f3ece0'/%3E%3Cg%20stroke='%238a7a63'%20stroke-width='2'%20fill='none'%3E%3Crect%20x='48'%20y='60'%20width='150'%20height='100'%20rx='8'/%3E%3Crect%20x='225'%20y='60'%20width='150'%20height='100'%20rx='8'/%3E%3Crect%20x='402'%20y='60'%20width='150'%20height='100'%20rx='8'/%3E%3Crect%20x='136'%20y='190'%20width='150'%20height='100'%20rx='8'/%3E%3Crect%20x='313'%20y='190'%20width='150'%20height='100'%20rx='8'/%3E%3C/g%3E%3Cg%20fill='%238a7a63'%3E%3Ccircle%20cx='123'%20cy='110'%20r='16'%20opacity='.5'/%3E%3Ccircle%20cx='300'%20cy='110'%20r='16'%20opacity='.5'/%3E%3Ccircle%20cx='477'%20cy='110'%20r='16'%20opacity='.5'/%3E%3Ccircle%20cx='211'%20cy='240'%20r='16'%20opacity='.5'/%3E%3Ccircle%20cx='388'%20cy='240'%20r='16'%20opacity='.5'/%3E%3C/g%3E%3C/svg%3E" width="600" height="338" alt="专题封面：暖色调的创作者工作台，五张卡片对应不同作者档案">
+      <div class="jfg-topic-body">
+        <span class="jfg-status">已完结 · 12 期</span>
+        <h3>创作者的第一次检索</h3>
+        <p>记录十二位新人创作者第一次使用平台检索工具的真实过程，从笨拙到熟练，保留每一条失败的关键词。</p>
+        <ul class="jfg-topic-list">
+          <li>新人最常输入的 20 个无效关键词</li>
+          <li>从 0 到 1 建立个人标签体系</li>
+          <li>被检索改变的三次成片经历</li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="jfg-topic">
+      <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20338'%3E%3Crect%20width='600'%20height='338'%20fill='%231b2b24'/%3E%3Cg%20stroke='%233e8f6b'%20stroke-width='2'%20opacity='.8'%20fill='none'%3E%3Ccircle%20cx='300'%20cy='169'%20r='110'/%3E%3Ccircle%20cx='300'%20cy='169'%20r='70'/%3E%3Cpath%20d='M300%2059V279M190%20169H410'/%3E%3C/g%3E%3Cg%20fill='%233e8f6b'%3E%3Ccircle%20cx='300'%20cy='59'%20r='6'/%3E%3Ccircle%20cx='410'%20cy='169'%20r='6'/%3E%3Ccircle%20cx='300'%20cy='279'%20r='6'/%3E%3Ccircle%20cx='190'%20cy='169'%20r='6'/%3E%3C/g%3E%3Crect%20x='240'%20y='145'%20width='120'%20height='10'%20rx='5'%20fill='%23c9e6d7'/%3E%3Crect%20x='240'%20y='168'%20width='78'%20height='10'%20rx='5'%20fill='%23c9e6d7'%20opacity='.55'/%3E%3C/svg%3E" width="600" height="338" alt="专题封面：深绿底色的检索罗盘图形，标注季节与城市坐标">
+      <div class="jfg-topic-body">
+        <span class="jfg-status is-updating">更新至第 4 期</span>
+        <h3>一座城市的十二种检索方式</h3>
+        <p>同一座城市，用季节、声音、气味、人物、时间五种线索去检索，会得到完全不同的影像答案。</p>
+        <ul class="jfg-topic-list">
+          <li>清晨六点的早餐摊与通勤人流</li>
+          <li>雨天、雾天与雨后三套空镜对比</li>
+          <li>本地创作者的私藏取景坐标</li>
+        </ul>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ================= S5 创作者矩阵 ================= -->
+<section class="jfg-section jfg-section-alt" id="jfgAuthors">
+  <div class="jfg-wrap">
+    <div class="jfg-sec-head">
+      <div>
+        <span class="jfg-eyebrow">Creators / 创作者</span>
+        <h2><span style="color:#2f6f9f">集 fang 阁 云 搜索</span> 的六位常驻创作者</h2>
+      </div>
+      <p>他们分别来自剪辑、标注、商业、纪录、声音与教学一线，是平台内容生态中最稳定的一层力量。</p>
+    </div>
+
+    <div class="jfg-authors">
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a1" aria-hidden="true">林</span>
+          <span><b>林知远</b><small>剪辑 / 检索方法</small></span>
+        </div>
+        <p>入行十年的剪辑师，长期研究素材管理与语义索引。擅长把复杂的检索逻辑讲成可执行的操作步骤，作品以实测类长视频为主，节奏克制、信息密度高，被同行称为“片库里的图书管理员”。</p>
+        <div class="jfg-author-data"><span>作品 <b>128</b></span><span>粉丝 <b>36.2 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="林知远" data-domain="剪辑 / 检索方法" data-works="128" data-fans="36.2 万">查看档案 →</button>
+      </article>
+
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a2" aria-hidden="true">周</span>
+          <span><b>周予安</b><small>教程 / 新人扶持</small></span>
+        </div>
+        <p>教学型创作者，专注为新人搭建可执行的工作流。她的视频以“三步法”“七清单”著称，很少炫技，更多是把行业经验拆成今天就能动手的小任务，是平台新人区完播率最高的作者之一。</p>
+        <div class="jfg-author-data"><span>作品 <b>96</b></span><span>粉丝 <b>28.7 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="周予安" data-domain="教程 / 新人扶持" data-works="96" data-fans="28.7 万">查看档案 →</button>
+      </article>
+
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a3" aria-hidden="true">沈</span>
+          <span><b>沈砚</b><small>标签工程 / 人物访谈</small></span>
+        </div>
+        <p>平台资深标注师，参与过两轮索引体系重建。他习惯从具体的一帧画面出发解释抽象规则，访谈中常出现技术细节与人文判断的拉扯，是理解内容治理一线最直接的窗口。</p>
+        <div class="jfg-author-data"><span>作品 <b>54</b></span><span>粉丝 <b>12.4 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="沈砚" data-domain="标签工程 / 人物访谈" data-works="54" data-fans="12.4 万">查看档案 →</button>
+      </article>
+
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a4" aria-hidden="true">贺</span>
+          <span><b>贺兰亭</b><small>商业观察 / 品牌故事</small></span>
+        </div>
+        <p>独立制片人，服务过四十余家中小企业。她擅长把商业项目拆成可复用的内容资产，关注小团队如何在有限预算下靠方法与工具取得竞争力，文章与视频都带着清晰的账本意识。</p>
+        <div class="jfg-author-data"><span>作品 <b>73</b></span><span>粉丝 <b>19.8 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="贺兰亭" data-domain="商业观察 / 品牌故事" data-works="73" data-fans="19.8 万">查看档案 →</button>
+      </article>
+
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a5" aria-hidden="true">苏</span>
+          <span><b>苏未迟</b><small>城市纪录 / 声音采集</small></span>
+        </div>
+        <p>纪录片导演，常年在城市里收集被忽略的声音与角落。他的作品几乎没有旁白，依靠环境声与镜头完成叙事，被认为是平台“治愈影像”方向的重要代表，也常参与线下放映活动。</p>
+        <div class="jfg-author-data"><span>作品 <b>61</b></span><span>粉丝 <b>24.5 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="苏未迟" data-domain="城市纪录 / 声音采集" data-works="61" data-fans="24.5 万">查看档案 →</button>
+      </article>
+
+      <article class="jfg-author">
+        <div class="jfg-author-head">
+          <span class="jfg-avatar a6" aria-hidden="true">陆</span>
+          <span><b>陆见川</b><small>影像技术 / 深度测评</small></span>
+        </div>
+        <p>技术测评作者，此前在后期公司做过六年调色。他的评测习惯附上可复核的测试方法与环境说明，拒绝对比图式夸张结论，是平台专业向内容里最受企业客户信任的作者之一。</p>
+        <div class="jfg-author-data"><span>作品 <b>88</b></span><span>粉丝 <b>21.3 万</b></span></div>
+        <button class="jfg-author-more jfg-author-btn" type="button" data-author="陆见川" data-domain="影像技术 / 深度测评" data-works="88" data-fans="21.3 万">查看档案 →</button>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S6 口碑 / 评价 ================= -->
+<section class="jfg-section jfg-wrap" id="jfgReviews">
+  <div class="jfg-sec-head">
+    <div>
+      <span class="jfg-eyebrow">Voices / 用户口碑</span>
+      <h2>关于 <span style="color:#2f6f9f">集 fang 阁 云 搜索</span>，他们这样说</h2>
+    </div>
+    <p>来自企业客户、创作者与普通观众的真实反馈，我们保留原始语气，不做统一修饰。</p>
+  </div>
+
+  <div class="jfg-score-summary">
+    <div class="jfg-score-big">4.8<small>综合评分 / 5.0</small></div>
+    <div class="jfg-score-bars">
+      <div class="row"><span>内容质量</span><span class="bar"><i style="width:96%"></i></span><span>4.9</span></div>
+      <div class="row"><span>检索准确</span><span class="bar"><i style="width:92%"></i></span><span>4.7</span></div>
+      <div class="row"><span>社区氛围</span><span class="bar"><i style="width:94%"></i></span><span>4.8</span></div>
+      <div class="row"><span>服务响应</span><span class="bar"><i style="width:90%"></i></span><span>4.6</span></div>
+    </div>
+  </div>
+
+  <div class="jfg-comments">
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a1" style="width:30px;height:30px;font-size:12px" aria-hidden="true">郑</span>
+        <b>郑一舟</b><span class="jfg-stars">★★★★★</span><small>11-20</small>
+      </div>
+      <p>公司内部培训片有四百多条，以前靠文件名找，现在输入“安全帽 演示”就能定位到具体镜头，检索准确率确实高，节省的时间是实打实的。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a2" style="width:30px;height:30px;font-size:12px" aria-hidden="true">许</span>
+        <b>许南枝</b><span class="jfg-stars">★★★★☆</span><small>11-19</small>
+      </div>
+      <p>作为观众我最喜欢专题策展，不是无脑刷，而是有人替我挑过一遍。扣一颗星是因为移动端播放页有时候会重新加载，希望优化。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a3" style="width:30px;height:30px;font-size:12px" aria-hidden="true">程</span>
+        <b>程默</b><span class="jfg-stars">★★★★★</span><small>11-18</small>
+      </div>
+      <p>新人扶持计划我是第二期进来的，审核流程比想象中严格，但正因为严格，评论区才没有那种互相踩的氛围。三个月涨了两万粉。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a4" style="width:30px;height:30px;font-size:12px" aria-hidden="true">韩</span>
+        <b>韩亦清</b><span class="jfg-stars">★★★★★</span><small>11-16</small>
+      </div>
+      <p>我只说一点：授权状态看得见。做品牌项目最怕素材来源不清，这里每条片子都标了可商用范围，法务那边一次就过，省了很多沟通成本。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a5" style="width:30px;height:30px;font-size:12px" aria-hidden="true">黎</span>
+        <b>黎小满</b><span class="jfg-stars">★★★★☆</span><small>11-15</small>
+      </div>
+      <p>关键词解析那篇长文我读了两次，作为一个刚学剪辑的人，第一次明白“标签”不是玄学。如果能有配套的练习素材包就更好了。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a6" style="width:30px;height:30px;font-size:12px" aria-hidden="true">岑</span>
+        <b>岑野</b><span class="jfg-stars">★★★★★</span><small>11-14</small>
+      </div>
+      <p>声音采集那部片子让我半夜看完了。平台愿意推这种没有流量爆点、但很真诚的纪录内容，说明策展是有主张的，不是纯看数据。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a1" style="width:30px;height:30px;font-size:12px" aria-hidden="true">孟</span>
+        <b>孟怀秋</b><span class="jfg-stars">★★★★☆</span><small>11-12</small>
+      </div>
+      <p>企业后台的批量下载和版本对比做得好，团队协作权限也清楚。唯一的建议是希望增加按项目归档的接口文档，方便对接内部系统。</p>
+    </article>
+
+    <article class="jfg-comment">
+      <div class="jfg-comment-head">
+        <span class="jfg-avatar a2" style="width:30px;height:30px;font-size:12px" aria-hidden="true">柯</span>
+        <b>柯以宁</b><span class="jfg-stars">★★★★★</span><small>11-10</small>
+      </div>
+      <p>在平台的月度挑战里投过两条片子，收到的是具体到分镜的点评，不是“拍得不错”这种客套话。对我来说这种反馈比点赞更重要。</p>
+    </article>
+  </div>
+</section>
+
+<!-- ================= S7 企业动态 + 合作品牌 ================= -->
+<section class="jfg-section jfg-section-alt" id="jfgDynamics">
+  <div class="jfg-wrap">
+    <div class="jfg-sec-head">
+      <div>
+        <span class="jfg-eyebrow">Newsroom / 企业动态</span>
+        <h2><span style="color:#2f6f9f">集 fang 阁 云 搜索</span> 官方发布与内容更新</h2>
+      </div>
+      <p>产品、专题、活动与合规信息统一在此发布，所有条目均可追溯，接受创作者与企业客户监督。</p>
+    </div>
+
+    <div class="jfg-dyn-grid">
+      <div class="jfg-news">
+        <article class="jfg-news-item">
+          <time datetime="2026-11-21">2026-11-21</time>
+          <div>
+            <b>「云搜索·影像年鉴 2026」专题上线</b>
+            <p>收录本年度 48 部原创短片，按城市、情绪、时间三条线索重新索引，专题页支持按关键词跳转到具体镜头。</p>
+          </div>
+        </article>
+        <article class="jfg-news-item">
+          <time datetime="2026-11-19">2026-11-19</time>
+          <div>
+            <b>创作者扶持计划第三期开放报名</b>
+            <p>面向入驻一年内的创作者，提供创作补贴、导师诊断与专题推荐位，本期名额 120 位，报名截止 12 月 20 日。</p>
+          </div>
+        </article>
+        <article class="jfg-news-item">
+          <time datetime="2026-11-18">2026-11-18</time>
+          <div>
+            <b>企业级高清视频检索工具 v3.2 发布</b>
+            <p>新增语义镜头定位与批量标签编辑，索引重建速度提升 42%，企业客户可在后台申请灰度体验。</p>
+          </div>
+        </article>
+        <article class="jfg-news-item">
+          <time datetime="2026-11-12">2026-11-12</time>
+          <div>
+            <b>内容授权协议模板更新公告</b>
+            <p>新版协议明确二次创作与商业投放的边界，已在创作者中心上线，历史作品可一键更新授权状态。</p>
+          </div>
+        </article>
+      </div>
+
+      <div>
+        <h3 style="font-size:15px;margin-bottom:14px;color:#5a6675;letter-spacing:.06em">合作品牌 / 伙伴</h3>
+        <div class="jfg-partners">
+          <div class="jfg-partner"><i style="background:#2f6f9f">北</i>北辰影像实验室</div>
+          <div class="jfg-partner"><i style="background:#e2952a">光</i>光屿后期</div>
+          <div class="jfg-partner"><i style="background:#3e8f6b">拾</i>拾帧文化</div>
+          <div class="jfg-partner"><i style="background:#8a5a9e">云</i>云岸设备</div>
+          <div class="jfg-partner"><i style="background:#c9483a">南</i>南陌放映</div>
+          <div class="jfg-partner"><i style="background:#3b7d8f">一</i>一格学院</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S7b FAQ ================= -->
+<section class="jfg-section jfg-wrap" id="jfgFaq">
+  <div class="jfg-sec-head">
+    <div>
+      <span class="jfg-eyebrow">Help / 帮助中心</span>
+      <h2>关于 <span style="color:#2f6f9f">集 fang 阁 云 搜索</span> 的常见问题</h2>
+    </div>
+    <p>问题来自创作者中心与企业客户工单，我们定期整理高频疑问并公开答复。</p>
+  </div>
+
+  <div class="jfg-faq">
+    <details>
+      <summary>平台的内容检索是如何实现的？</summary>
+      <p>每部作品上传后会经历分镜切分、场景识别、台词转写与人工复核四道流程，最终生成可被自然语言命中的标签。官方发布内容会额外经过编辑二次校验，确保检索结果与画面一致。</p>
+    </details>
+    <details>
+      <summary>创作者入驻需要什么条件？</summary>
+      <p>需完成实名认证、提交原创作品不少于 3 部，并签署作品权属声明。搬运、二剪、拼接内容无法通过审核。审核周期通常为 3 至 7 个工作日，结果会在创作者中心通知。</p>
+    </details>
+    <details>
+      <summary>企业客户如何批量托管内部视频？</summary>
+      <p>可在企业后台创建团队空间，通过接口或批量上传工具导入素材，并设置成员权限与访问范围。托管内容默认不对外公开，检索与标签能力与平台公共片库一致。</p>
+    </details>
+    <details>
+      <summary>视频的授权与商用范围怎么查看？</summary>
+      <p>每部作品详情页会标注授权状态、可商用范围与有效期限。如需扩展授权，可通过作品页的“联系作者”入口发起申请，平台提供协议模板与留档服务。</p>
+    </details>
+    <details>
+      <summary>扶持计划的补贴如何发放？</summary>
+      <p>入选后按月发放创作补贴，并配套导师诊断与专题推荐位。补贴与作品交付进度挂钩，具体规则在入选通知中说明，所有发放记录可在个人中心查询。</p>
+    </details>
+    <details>
+      <summary>发现内容侵权或标注错误怎么反馈？</summary>
+      <p>可使用页面中的“反馈”入口提交材料，平台承诺 48 小时内响应。核实后会对内容做下架、修正标签或补充说明处理，处理结果会同步通知反馈人。</p>
+    </details>
+    <details>
+      <summary>是否支持下载与离线观看？</summary>
+      <p>官方发布的免费内容支持高清下载，需登录账号；付费与授权内容按协议执行。离线缓存仅限移动端应用，缓存文件不可二次分发。</p>
+    </details>
+  </div>
+</section>
+
+<!-- ================= S7c 投稿入口 ================= -->
+<section class="jfg-section jfg-wrap" id="jfgSubmit">
+  <div class="jfg-submit">
+    <div>
+      <span class="jfg-eyebrow" style="background:rgba(255,255,255,.12);color:#ffd591">Join / 创作投稿</span>
+      <h2>把你的影像，放进 <span style="color:#ffb547">集 fang 阁 云 搜索</span> 的索引里</h2>
+      <p>第三期创作者扶持计划正在报名。我们提供创作补贴、检索标签指导、导师分镜诊断与专题推荐位，帮助原创内容被更多人准确找到。无论你是拍了三年还是三个月，只要作品真实、正版、清晰，都欢迎提交。</p>
+      <div class="jfg-hero-cta">
+        <button class="jfg-btn jfg-btn-gold jfg-submit-open" type="button">立即报名投稿</button>
+        <a class="jfg-btn jfg-btn-ghost" href="#jfgFaq" style="background:transparent;color:#eaf1f7;border-color:rgba(255,255,255,.28)">查看参赛规则</a>
+      </div>
+    </div>
+    <div class="jfg-submit-cta">
+      <div style="background:rgba(255,255,255,.08);border-radius:14px;padding:16px 18px">
+        <b style="display:block;color:#fff;font-size:14px">本期报名倒计时</b>
+        <span style="font-size:13px;color:#c0d3e2">12 月 20 日 24:00 截止 · 名额 120 位</span>
+      </div>
+      <div style="background:rgba(255,255,255,.08);border-radius:14px;padding:16px 18px">
+        <b style="display:block;color:#fff;font-size:14px">已收到投稿</b>
+        <span style="font-size:13px;color:#c0d3e2"><b class="jfg-play-count">2,318</b> 部 · 覆盖 27 个城市</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= S8 页脚 ================= -->
+<footer class="jfg-footer">
+  <div class="jfg-wrap">
+    <div class="jfg-footer-grid">
+      <div class="jfg-footer-brand">
+        <b>集 fang 阁 云 搜索</b>
+        <p>以云端搜索为核心驱动的视频内容品牌，深耕“搜索 × 影像”垂直领域，坚持原创、正版、高清与社区共建，为创作者与企业提供值得信赖的内容生态。</p>
+      </div>
+      <div>
+        <h4>内容</h4>
+        <ul>
+          <li><a href="#jfgFeatured">精选片库</a></li>
+          <li><a href="#jfgTopics">专题企划</a></li>
+          <li><a href="#jfgEssay">品牌解析</a></li>
+          <li><a href="#jfgAuthors">创作者名录</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>关于</h4>
+        <ul>
+          <li><a href="#jfgDynamics">企业动态</a></li>
+          <li><a href="#jfgReviews">用户口碑</a></li>
+          <li><a href="#jfgSubmit">创作投稿</a></li>
+          <li><a href="#jfgFaq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>联系</h4>
+        <ul>
+          <li>合作邮箱：partner@jfg-cloud.example</li>
+          <li>投稿邮箱：create@jfg-cloud.example</li>
+          <li>工作日 09:30 - 18:30</li>
+          <li><button class="jfg-feedback-open" type="button" style="padding:0;font-size:13.5px;color:#a9bac9">问题反馈</button></li>
+        </ul>
+      </div>
+    </div>
+    <div class="jfg-footer-bottom">
+      <span>集 fang 阁 云 搜索 官方网站 | 版权所有 | 持续运营中</span>
+      <span>备案号：示例备案 2026-0000 号</span>
+      <span>广播电视节目制作经营许可（示例）</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="jfg-toast" id="jfgToast" role="status" aria-live="polite"></div>
+
+<!-- 回到顶部 -->
+<button class="jfg-to-top" id="jfgToTop" type="button" aria-label="回到顶部">↑</button>
+
+<!-- 通用弹窗 -->
+<div class="jfg-modal-backdrop" id="jfgModal" role="dialog" aria-modal="true" aria-labelledby="jfgModalTitle">
+  <div class="jfg-modal">
+    <div class="jfg-modal-head">
+      <b id="jfgModalTitle">提示</b>
+      <button class="jfg-modal-close" id="jfgModalClose" type="button" aria-label="关闭">×</button>
+    </div>
+    <div class="jfg-modal-body" id="jfgModalBody"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  "use strict";
+
+  var toastEl = document.getElementById("jfgToast");
+  var toastTimer = null;
+  function toast(msg) {
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add("is-show");
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      toastEl.classList.remove("is-show");
+    }, 2000);
+  }
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var navToggle = document.getElementById("jfgNavToggle");
+  var mobileNav = document.getElementById("jfgMobileNav");
+  if (navToggle && mobileNav) {
+    navToggle.addEventListener("click", function () {
+      var open = mobileNav.classList.toggle("is-open");
+      navToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      navToggle.textContent = open ? "收起" : "菜单";
+    });
+    mobileNav.addEventListener("click", function (e) {
+      if (e.target.tagName === "A") {
+        mobileNav.classList.remove("is-open");
+        navToggle.setAttribute("aria-expanded", "false");
+        navToggle.textContent = "菜单";
+      }
+    });
+  }
+
+  /* ---------- 搜索：提示 + 前端反馈 ---------- */
+  var searchInput = document.getElementById("jfgSearchInput");
+  var searchBtn = document.getElementById("jfgSearchBtn");
+  var searchResult = document.getElementById("jfgSearchResult");
+  var searchData = [
+    { t: "语义检索实测：1200 小时素材", k: "检索" },
+    { t: "从零搭建个人影像检索库：三步法", k: "教程" },
+    { t: "云搜索背后的标签工程：标注师的一天", k: "访谈" },
+    { t: "新人第一条片子的 7 个检索关键词", k: "新人" },
+    { t: "一座城市的十二种检索方式（专题）", k: "专题" },
+    { t: "企业级高清视频检索工具 v3.2 发布", k: "动态" },
+    { t: "林知远：片库里的图书管理员", k: "创作者" },
+    { t: "苏未迟：把城市声音做成关键词", k: "创作者" },
+    { t: "创作者扶持计划第三期报名", k: "活动" }
+  ];
+
+  function renderSearch(keyword) {
+    if (!searchResult) return;
+    var kw = (keyword || "").trim();
+    if (!kw) {
+      searchResult.classList.remove("is-open");
+      searchResult.innerHTML = "";
+      return;
+    }
+    var list = searchData.filter(function (item) {
+      return item.t.indexOf(kw) > -1 || item.k.indexOf(kw) > -1;
+    });
+    if (!list.length) {
+      searchResult.innerHTML = "<button type='button'>未找到“" + escapeHtml(kw) + "”，试试「检索」「专题」「创作者」</button>";
+    } else {
+      searchResult.innerHTML = list.slice(0, 6).map(function (item) {
+        return "<button type='button' data-t='" + escapeAttr(item.t) + "'>" +
+          highlight(item.t, kw) + " <span style='color:#9aa5b1;font-size:12px'>· " + escapeHtml(item.k) + "</span></button>";
+      }).join("");
+    }
+    searchResult.classList.add("is-open");
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c];
+    });
+  }
+  function escapeAttr(s) { return escapeHtml(s); }
+  function highlight(text, kw) {
+    var safe = escapeHtml(text);
+    var k = escapeHtml(kw);
+    if (!k) return safe;
+    return safe.split(k).join("<em>" + k + "</em>");
+  }
+
+  if (searchInput) {
+    searchInput.addEventListener("input", function () { renderSearch(searchInput.value); });
+    searchInput.addEventListener("keydown", function (e) {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        doSearch();
+      }
+    });
+  }
+  if (searchBtn) {
+    searchBtn.addEventListener("click", doSearch);
+  }
+  function doSearch() {
+    var kw = searchInput ? searchInput.value.trim() : "";
+    if (!kw) {
+      toast("请输入关键词后再搜索");
+      return;
+    }
+    var hit = searchData.some(function (item) {
+      return item.t.indexOf(kw) > -1 || item.k.indexOf(kw) > -1;
+    });
+    if (hit) {
+      toast("找到与“" + kw + "”相关的精选内容");
+      if (searchResult) {
+        searchResult.classList.add("is-open");
+        renderSearch(kw);
+      }
+    } else {
+      toast("暂无“" + kw + "”，已为你推荐热门专题");
+      if (searchInput) searchInput.value = "检索";
+      renderSearch("检索");
+    }
+  }
+  if (searchResult) {
+    searchResult.addEventListener("click", function (e) {
+      var btn = e.target.closest("button");
+      if (!btn) return;
+      var title = btn.getAttribute("data-t");
+      if (title) {
+        toast("正在打开：" + title);
+      } else {
+        toast(btn.textContent.slice(0, 24));
+      }
+      searchResult.classList.remove("is-open");
+    });
+  }
+  document.addEventListener("click", function (e) {
+    if (searchResult && !e.target.closest("#jfgSearchWrap")) {
+      searchResult.classList.remove("is-open");
+    }
+  });
+
+  /* ---------- 点赞 / 收藏 ---------- */
+  document.addEventListener("click", function (e) {
+    var likeBtn = e.target.closest(".jfg-like-btn");
+    if (likeBtn) {
+      var base = parseInt(likeBtn.getAttribute("data-count") || "0", 10);
+      var liked = likeBtn.classList.toggle("is-liked");
+      var n = liked ? base + 1 : base;
+      likeBtn.textContent = "👍 " + n.toLocaleString("en-US");
+      toast(liked ? "已点赞，感谢支持" : "已取消点赞");
+      return;
+    }
+    var saveBtn = e.target.closest(".jfg-save-btn");
+    if (saveBtn) {
+      var saved = saveBtn.classList.toggle("is-saved");
+      saveBtn.textContent = saved ? "★ 已收藏" : "☆ 收藏";
+      toast(saved ? "已加入收藏夹" : "已取消收藏");
+    }
+  });
+
+  /* ---------- 弹窗通用 ---------- */
+  var modal = document.getElementById("jfgModal");
+  var modalTitle = document.getElementById("jfgModalTitle");
+  var modalBody = document.getElementById("jfgModalBody");
+  var modalClose = document.getElementById("jfgModalClose");
+
+  function openModal(title, html) {
+    if (!modal) return;
+    modalTitle.textContent = title;
+    modalBody.innerHTML = html;
+    modal.classList.add("is-open");
+    document.body.style.overflow = "hidden";
+  }
+  function closeModal() {
+    if (!modal) return;
+    modal.classList.remove("is-open");
+    document.body.style.overflow = "";
+  }
+  if (modalClose) modalClose.addEventListener("click", closeModal);
+  if (modal) {
+    modal.addEventListener("click", function (e) {
+      if (e.target === modal) closeModal();
+    });
+  }
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && modal && modal.classList.contains("is-open")) closeModal();
+  });
+
+  /* ---------- 分享 / 复制链接 ---------- */
+  document.addEventListener("click", function (e) {
+    var shareBtn = e.target.closest(".jfg-share-btn");
+    if (!shareBtn) return;
+    var title = shareBtn.getAttribute("data-title") || "集 fang 阁 云 搜索";
+    openModal("分享作品", (
+      "<p style='margin-bottom:16px'>《" + escapeHtml(title) + "》</p>" +
+      "<div style='display:flex;flex-wrap:wrap;gap:10px'>" +
+      "<button class='jfg-btn jfg-btn-primary' type='button' data-share='微信'>微信</button>" +
+      "<button class='jfg-btn jfg-btn-ghost' type='button' data-share='微博'>微博</button>" +
+      "<button class='jfg-btn jfg-btn-ghost' type='button' data-share='QQ'>QQ</button>" +
+      "<button class='jfg-btn jfg-btn-gold' type='button' id='jfgCopyLink'>复制链接</button>" +
+      "</div>"
+    ));
+  });
+
+  document.addEventListener("click", function (e) {
+    var target = e.target.closest("[data-share]");
+    if (target) {
+      toast("已生成" + target.getAttribute("data-share") + "分享卡片");
+      closeModal();
+      return;
+    }
+    if (e.target.id === "jfgCopyLink") {
+      var link = "https://jfg-cloud.example/share/preview";
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(link).then(function () {
+          toast("链接已复制到剪贴板");
+          closeModal();
+        }).catch(function () {
+          toast("复制失败，请手动复制");
+        });
+      } else {
+        toast("当前环境不支持自动复制");
+      }
+    }
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  document.addEventListener("click", function (e) {
+    var btn = e.target.closest(".jfg-author-btn");
+    if (!btn) return;
+    var name = btn.getAttribute("data-author");
+    var domain = btn.getAttribute("data-domain");
+    var works = btn.getAttribute("data-works");
+    var fans = btn.getAttribute("data-fans");
+    openModal(name + " · 创作者档案", (
+      "<p><b>擅长领域：</b>" + escapeHtml(domain) + "</p>" +
+      "<p style='margin-top:8px'><b>作品数：</b>" + escapeHtml(works) + " 部　<b>粉丝：</b>" + escapeHtml(fans) + "</p>" +
+      "<p style='margin-top:14px;color:#5a6675'>该创作者长期在集 fang 阁 云 搜索发布原创高清内容，参与平台专题策展与创作者互评，作品均已完成权属声明与授权留档。</p>" +
+      "<div style='margin-top:18px'><button class='jfg-btn jfg-btn-primary' type='button' onclick='document.getElementById(\"jfgModalClose\").click()'>关闭</button></div>"
+    ));
+  });
+
+  /* ---------- 投稿弹窗 ---------- */
+  var submitOpen = document.querySelector(".jfg-submit-open");
+  if (submitOpen) {
+    submitOpen.addEventListener("click", function () {
+      openModal("创作投稿 · 第三期报名", (
+        "<form id='jfgSubmitForm'>" +
+        "<label for='sfName'>创作者昵称</label>" +
+        "<input id='sfName' type='text' placeholder='请输入昵称' required>" +
+        "<label for='sfContact'>联系方式</label>" +
+        "<input id='sfContact' type='text' placeholder='邮箱或手机号' required>" +
+        "<label for='sfType'>作品类型</label>" +
+        "<select id='sfType'><option>城市纪录</option><option>教程干货</option><option>人物访谈</option><option>深度测评</option><option>其他原创</option></select>" +
+        "<label for='sfDesc'>作品简介</label>" +
+        "<textarea id='sfDesc' rows='3' placeholder='用 50 字介绍你的作品与关键词'></textarea>" +
+        "<div style='margin-top:18px;display:flex;gap:10px;flex-wrap:wrap'>" +
+        "<button class='jfg-btn jfg-btn-primary' type='submit'>提交报名</button>" +
+        "<button class='jfg-btn jfg-btn-ghost' type='button' id='jfgSubmitCancel'>取消</button>" +
+        "</div></form>"
+      ));
+      var cancel = document.getElementById("jfgSubmitCancel");
+      if (cancel) cancel.addEventListener("click", closeModal);
+      var form = document.getElementById("jfgSubmitForm");
+      if (form) {
+        form.addEventListener("submit", function (ev) {
+          ev.preventDefault();
+          closeModal();
+          toast("报名已提交，我们将在 5 个工作日内联系你");
+        });
+      }
+    });
+  }
+
+  /* ---------- 反馈弹窗 ---------- */
+  document.addEventListener("click", function (e) {
+    if (!e.target.closest(".jfg-feedback-open")) return;
+    openModal("问题反馈", (
+      "<form id='jfgFeedbackForm'>" +
+      "<label for='fbType'>反馈类型</label>" +
+      "<select id='fbType'><option>内容标注错误</option><option>侵权举报</option><option>播放异常</option><option>功能建议</option></select>" +
+      "<label for='fbText'>详细描述</label>" +
+      "<textarea id='fbText' rows='4' placeholder='请描述你遇到的问题' required></textarea>" +
+      "<div style='margin-top:18px;display:flex;gap:10px;flex-wrap:wrap'>" +
+      "<button class='jfg-btn jfg-btn-primary' type='submit'>提交反馈</button>" +
+      "<button class='jfg-btn jfg-btn-ghost' type='button' id='jfgFbCancel'>取消</button>" +
+      "</div></form>"
+    ));
+    var c = document.getElementById("jfgFbCancel");
+    if (c) c.addEventListener("click", closeModal);
+    var f = document.getElementById("jfgFeedbackForm");
+    if (f) {
+      f.addEventListener("submit", function (ev) {
+        ev.preventDefault();
+        closeModal();
+        toast("反馈已收到，48 小时内响应");
+      });
+    }
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var toTop = document.getElementById("jfgToTop");
+  window.addEventListener("scroll", function () {
+    if (!toTop) return;
+    if (window.scrollY > 520) {
+      toTop.classList.add("is-show");
+    } else {
+      toTop.classList.remove("is-show");
+    }
+  }, { passive: true });
+  if (toTop) {
+    toTop.addEventListener("click", function () {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  }
+
+  /* ---------- 数字滚动（首屏统计） ---------- */
+  var statEls = document.querySelectorAll(".jfg-stat b");
+  if (statEls.length && "IntersectionObserver" in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (!entry.isIntersecting) return;
+        var el = entry.target;
+        var raw = el.textContent.replace(/[^\d.]/g, "");
+        var target = parseFloat(raw);
+        if (isNaN(target)) return;
+        var isFloat = raw.indexOf(".") > -1;
+        var start = 0;
+        var dur = 900;
+        var t0 = performance.now();
+        var suffix = el.querySelector("i") ? el.querySelector("i").outerHTML : "";
+        function step(now) {
+          var p = Math.min((now - t0) / dur, 1);
+          var val = target * (1 - Math.pow(1 - p, 3));
+          var txt = isFloat ? val.toFixed(1) : Math.round(val).toString();
+          el.innerHTML = txt + suffix;
+          if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+        io.unobserve(el);
+      });
+    }, { threshold: 0.6 });
+    statEls.forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>
+</body>
+  </html>
